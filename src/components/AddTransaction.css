@@ -1,0 +1,26 @@
+.new-transaction{
+    display: grid;
+    
+}
+.transaction-header{
+    font-size: 16px;
+}
+.input{
+    display: grid;
+    
+}
+label{
+    justify-self: start;
+}
+input{
+    border: none;
+    background: lightgrey;
+    padding: 15px;
+}
+.add-btn{
+    width: 100%;
+    background:rgba(0,255,0,0.7);
+}
+.add-btn:hover{
+    background-color: rgba(0,255,0,0.8);
+}

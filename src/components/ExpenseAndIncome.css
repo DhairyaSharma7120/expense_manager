@@ -1,0 +1,46 @@
+.total_box{
+    /* letter-spacing: 1.2px; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0;
+    font-family: Gill Sans Extrabold, sans-serif;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 5px 4px rgba(0,255,0,0.3);
+}
+.income{    
+    width: 100%;
+    justify-self: center;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* border-right: 3px solid green; */
+    text-align: center;
+    transition: 1.5s;
+}
+.income:hover{
+    background-color: rgba(0,255,0,0.2);
+}
+.expense{
+    width: 100%;
+   justify-self: center;
+   font-family: 'Montserrat', sans-serif;
+   /* font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+
+   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+   /* font-family: 'Arial Narrow Bold', sans-serif; */
+   /* border-left: 3px solid red; */
+   text-align: center;
+   transition: 1.5s;
+}
+.expense:hover{
+    background-color: rgba(255,0,0,0.2);
+    
+
+}
+span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+

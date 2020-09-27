@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+.App{
+  width: 30%;
+  align-self: start;
+  justify-self: center;
+  transform: scale(0.8);
+  
+}
+.center{
+  text-align: center;
+}
+.flex{
+  display: flex;
+}
+@media (max-width: 900px){
+  .App{
+    width: 100%;
+    padding: 0;
+  }
+}

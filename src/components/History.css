@@ -1,0 +1,67 @@
+.transaction{
+    padding: 0;
+
+}
+.history-header{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-style: bolder;
+}
+.plus{
+    background-color: rgba(0,255,0,0.3);
+    display: flex;
+
+}
+.minus{
+    background-color: rgba(255,0,0,0.4);
+    display: flex;
+}
+p{
+    flex-basis: 80%;
+}
+span{
+    flex-basis: 20%;
+}
+.minus .remove-btn{
+    color:rgba(255,0,0,0.1);
+    background-color: rgba(255,0,0,1);
+    font-family: 'Montserrat', sans-serif;
+    width: 8px;
+    padding: 0;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+.plus .remove-btn{
+    color:rgba(0,255,0,0.1);
+    background-color: rgba(0,255,0,1);
+    font-family: 'Montserrat', sans-serif;
+    width: 8px;
+    padding: 0;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+.plus:hover .remove-btn{
+    width: 40px;
+    color: black;
+    background-color: rgba(255,0,0,1);
+
+    
+}
+.minus:hover .remove-btn{
+    width: 40px;
+    color: black;
+}
+@media (max-width: 600px){
+    .header{
+        font-size: 90%;
+    }
+    span{
+        font-size: 80%;
+    }
+    p{
+        font-size: 80%;
+    }
+}
